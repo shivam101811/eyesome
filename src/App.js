@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/eyesome">
       <Routes>
         <Route path="/login" element={<Login userData={userData} onLogin={handleLogin} />} />
         <Route path="/signup" element={<SignUp handleSignUp={handleSignUp} />} />

@@ -467,6 +467,13 @@ form {
 
 }
 
+.add-to-cart-btn{
+  background: linear-gradient(146deg, #c8d51c, #ff1212);
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
 .c2-add-btn {}
 
 .c2-add-btn img {
@@ -2160,6 +2167,10 @@ max-width: 400px;}
 
     .eye-icon{
       display: none;
+    }
+
+    .h-title label a {
+      font-size: 23px;
     }
 
 }
